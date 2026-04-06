@@ -97,34 +97,26 @@ streamlit run app.py
 ```mermaid
 flowchart LR
   U[User]
-  ST[Streamlit UI<br/>(app.py)]
-  API[FastAPI Backend<br/>(api/main.py)]
 
-  DATA[(Dataset CSV<br/>data/training.1600000.processed.noemoticon.csv)]
-  PIPE[One‑Command Pipeline<br/>(run_pipeline.py)]
+  U --> ST[Streamlit UI (app.py)]
+  U --> FAPI[FastAPI (api/main.py)]
 
-  A1[(TF‑IDF Sentiment Artifact<br/>artifacts/sentiment_tfidf.joblib)]
-  A2[(BERT Artifact (optional: --full)<br/>artifacts/bert_sentiment/)]
-  A3[(LSTM Forecast Artifact (optional: --full)<br/>artifacts/hashtag_lstm.pt)]
-  OUT[(Generated Outputs<br/>outputs/ (plots, metrics, trends, forecast))]
-
-  U --> ST
-  U --> API
-
-  DATA --> PIPE
-  PIPE --> A1
-  PIPE --> A2
-  PIPE --> A3
-  PIPE --> OUT
+  subgraph OFFLINE[Offline pipeline]
+    DATA[(Dataset CSV)] --> PIPE[run_pipeline.py]
+    PIPE --> A1[(TF-IDF sentiment artifact)]
+    PIPE --> A2[(BERT artifact (optional))]
+    PIPE --> A3[(LSTM forecast artifact (optional))]
+    PIPE --> OUT[(outputs/ plots + metrics + trends + forecast)]
+  end
 
   ST -->|loads| A1
-  ST -->|loads (optional)| A2
-  ST -->|loads (optional)| A3
+  ST -->|loads (opt)| A2
+  ST -->|loads (opt)| A3
   ST -->|reads| OUT
 
-  API -->|loads| A1
-  API -->|loads (optional)| A3
-  API -->|reads| DATA
+  FAPI -->|loads| A1
+  FAPI -->|loads (opt)| A3
+  FAPI -->|reads| DATA
 ```
 
 ### Pipeline (end‑to‑end)
