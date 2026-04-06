@@ -98,24 +98,24 @@ streamlit run app.py
 flowchart LR
   U[User]
 
-  U --> ST[Streamlit UI (app.py)]
-  U --> FAPI[FastAPI (api/main.py)]
+  U --> ST[Streamlit UI - app.py]
+  U --> FAPI[FastAPI - api/main.py]
 
   subgraph OFFLINE[Offline pipeline]
     DATA[(Dataset CSV)] --> PIPE[run_pipeline.py]
     PIPE --> A1[(TF-IDF sentiment artifact)]
-    PIPE --> A2[(BERT artifact (optional))]
-    PIPE --> A3[(LSTM forecast artifact (optional))]
-    PIPE --> OUT[(outputs/ plots + metrics + trends + forecast)]
+    PIPE --> A2[(BERT artifact - optional)]
+    PIPE --> A3[(LSTM forecast artifact - optional)]
+    PIPE --> OUT[(outputs folder)]
   end
 
   ST -->|loads| A1
-  ST -->|loads (opt)| A2
-  ST -->|loads (opt)| A3
+  ST -->|loads optional| A2
+  ST -->|loads optional| A3
   ST -->|reads| OUT
 
   FAPI -->|loads| A1
-  FAPI -->|loads (opt)| A3
+  FAPI -->|loads optional| A3
   FAPI -->|reads| DATA
 ```
 
