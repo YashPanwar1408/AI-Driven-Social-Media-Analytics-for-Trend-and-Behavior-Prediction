@@ -184,6 +184,14 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+### Dataset (required)
+This repo does **not** include the full dataset CSV because GitHub rejects files larger than 100MB.
+
+Place the Sentiment140-style training file at:
+- `data/training.1600000.processed.noemoticon.csv`
+
+> The file is expected to be **latin-1**, **no header**, with 6 columns (Sentiment140 format).
+
 > Note: NLTK resources may auto‑download the first time preprocessing runs.
 
 ---
