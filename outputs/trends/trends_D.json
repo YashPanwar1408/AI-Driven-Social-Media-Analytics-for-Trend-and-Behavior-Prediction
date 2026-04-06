@@ -1,0 +1,522 @@
+{
+  "group_freq": "D",
+  "top_overall": [
+    {
+      "hashtag": "#fb",
+      "count": 218
+    },
+    {
+      "hashtag": "#asot400",
+      "count": 137
+    },
+    {
+      "hashtag": "#fail",
+      "count": 74
+    },
+    {
+      "hashtag": "#followfriday",
+      "count": 66
+    },
+    {
+      "hashtag": "#f1",
+      "count": 58
+    },
+    {
+      "hashtag": "#myweakness",
+      "count": 48
+    },
+    {
+      "hashtag": "#2",
+      "count": 44
+    },
+    {
+      "hashtag": "#1",
+      "count": 44
+    },
+    {
+      "hashtag": "#marsiscoming",
+      "count": 40
+    },
+    {
+      "hashtag": "#ff",
+      "count": 39
+    }
+  ],
+  "latest_period_start": "2009-05-30T00:00:00",
+  "top_latest": [
+    {
+      "hashtag": "#marsiscoming",
+      "count": 40
+    },
+    {
+      "hashtag": "#myweakness",
+      "count": 27
+    },
+    {
+      "hashtag": "#asylm",
+      "count": 15
+    },
+    {
+      "hashtag": "#fb",
+      "count": 14
+    },
+    {
+      "hashtag": "#lions",
+      "count": 7
+    },
+    {
+      "hashtag": "#followfriday",
+      "count": 5
+    },
+    {
+      "hashtag": "#facup",
+      "count": 4
+    },
+    {
+      "hashtag": "#1",
+      "count": 3
+    },
+    {
+      "hashtag": "#bcleeds09",
+      "count": 3
+    },
+    {
+      "hashtag": "#fail",
+      "count": 3
+    }
+  ],
+  "series": {
+    "#fb": [
+      {
+        "period_start": "2009-04-06T00:00:00",
+        "count": 3
+      },
+      {
+        "period_start": "2009-04-07T00:00:00",
+        "count": 9
+      },
+      {
+        "period_start": "2009-04-17T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-04-18T00:00:00",
+        "count": 10
+      },
+      {
+        "period_start": "2009-04-19T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-04-20T00:00:00",
+        "count": 5
+      },
+      {
+        "period_start": "2009-04-21T00:00:00",
+        "count": 5
+      },
+      {
+        "period_start": "2009-05-01T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-05-02T00:00:00",
+        "count": 5
+      },
+      {
+        "period_start": "2009-05-03T00:00:00",
+        "count": 12
+      },
+      {
+        "period_start": "2009-05-04T00:00:00",
+        "count": 10
+      },
+      {
+        "period_start": "2009-05-09T00:00:00",
+        "count": 10
+      },
+      {
+        "period_start": "2009-05-10T00:00:00",
+        "count": 12
+      },
+      {
+        "period_start": "2009-05-11T00:00:00",
+        "count": 3
+      },
+      {
+        "period_start": "2009-05-13T00:00:00",
+        "count": 3
+      },
+      {
+        "period_start": "2009-05-14T00:00:00",
+        "count": 13
+      },
+      {
+        "period_start": "2009-05-16T00:00:00",
+        "count": 3
+      },
+      {
+        "period_start": "2009-05-17T00:00:00",
+        "count": 15
+      },
+      {
+        "period_start": "2009-05-18T00:00:00",
+        "count": 12
+      },
+      {
+        "period_start": "2009-05-21T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-22T00:00:00",
+        "count": 26
+      },
+      {
+        "period_start": "2009-05-25T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-26T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-28T00:00:00",
+        "count": 7
+      },
+      {
+        "period_start": "2009-05-29T00:00:00",
+        "count": 34
+      },
+      {
+        "period_start": "2009-05-30T00:00:00",
+        "count": 14
+      }
+    ],
+    "#asot400": [
+      {
+        "period_start": "2009-04-17T00:00:00",
+        "count": 5
+      },
+      {
+        "period_start": "2009-04-18T00:00:00",
+        "count": 69
+      },
+      {
+        "period_start": "2009-04-19T00:00:00",
+        "count": 63
+      }
+    ],
+    "#fail": [
+      {
+        "period_start": "2009-04-06T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-04-07T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-04-19T00:00:00",
+        "count": 3
+      },
+      {
+        "period_start": "2009-04-20T00:00:00",
+        "count": 3
+      },
+      {
+        "period_start": "2009-04-21T00:00:00",
+        "count": 6
+      },
+      {
+        "period_start": "2009-05-01T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-03T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-05-04T00:00:00",
+        "count": 3
+      },
+      {
+        "period_start": "2009-05-09T00:00:00",
+        "count": 3
+      },
+      {
+        "period_start": "2009-05-13T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-14T00:00:00",
+        "count": 11
+      },
+      {
+        "period_start": "2009-05-16T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-17T00:00:00",
+        "count": 4
+      },
+      {
+        "period_start": "2009-05-18T00:00:00",
+        "count": 12
+      },
+      {
+        "period_start": "2009-05-22T00:00:00",
+        "count": 3
+      },
+      {
+        "period_start": "2009-05-26T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-29T00:00:00",
+        "count": 14
+      },
+      {
+        "period_start": "2009-05-30T00:00:00",
+        "count": 3
+      }
+    ],
+    "#followfriday": [
+      {
+        "period_start": "2009-04-18T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-01T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-02T00:00:00",
+        "count": 3
+      },
+      {
+        "period_start": "2009-05-03T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-05-09T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-05-14T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-17T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-22T00:00:00",
+        "count": 27
+      },
+      {
+        "period_start": "2009-05-29T00:00:00",
+        "count": 23
+      },
+      {
+        "period_start": "2009-05-30T00:00:00",
+        "count": 5
+      }
+    ],
+    "#f1": [
+      {
+        "period_start": "2009-04-07T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-04-18T00:00:00",
+        "count": 5
+      },
+      {
+        "period_start": "2009-04-19T00:00:00",
+        "count": 32
+      },
+      {
+        "period_start": "2009-05-02T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-10T00:00:00",
+        "count": 19
+      }
+    ],
+    "#myweakness": [
+      {
+        "period_start": "2009-05-29T00:00:00",
+        "count": 21
+      },
+      {
+        "period_start": "2009-05-30T00:00:00",
+        "count": 27
+      }
+    ],
+    "#2": [
+      {
+        "period_start": "2009-04-07T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-04-17T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-04-18T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-04-19T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-02T00:00:00",
+        "count": 4
+      },
+      {
+        "period_start": "2009-05-03T00:00:00",
+        "count": 5
+      },
+      {
+        "period_start": "2009-05-09T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-05-10T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-05-16T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-18T00:00:00",
+        "count": 3
+      },
+      {
+        "period_start": "2009-05-22T00:00:00",
+        "count": 4
+      },
+      {
+        "period_start": "2009-05-28T00:00:00",
+        "count": 6
+      },
+      {
+        "period_start": "2009-05-29T00:00:00",
+        "count": 10
+      },
+      {
+        "period_start": "2009-05-30T00:00:00",
+        "count": 2
+      }
+    ],
+    "#1": [
+      {
+        "period_start": "2009-04-07T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-04-17T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-04-18T00:00:00",
+        "count": 4
+      },
+      {
+        "period_start": "2009-04-19T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-04-20T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-05-01T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-02T00:00:00",
+        "count": 4
+      },
+      {
+        "period_start": "2009-05-04T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-10T00:00:00",
+        "count": 4
+      },
+      {
+        "period_start": "2009-05-14T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-16T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-05-17T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-18T00:00:00",
+        "count": 5
+      },
+      {
+        "period_start": "2009-05-22T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-28T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-29T00:00:00",
+        "count": 8
+      },
+      {
+        "period_start": "2009-05-30T00:00:00",
+        "count": 3
+      }
+    ],
+    "#marsiscoming": [
+      {
+        "period_start": "2009-05-30T00:00:00",
+        "count": 40
+      }
+    ],
+    "#ff": [
+      {
+        "period_start": "2009-05-02T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-05-03T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-17T00:00:00",
+        "count": 2
+      },
+      {
+        "period_start": "2009-05-22T00:00:00",
+        "count": 12
+      },
+      {
+        "period_start": "2009-05-28T00:00:00",
+        "count": 1
+      },
+      {
+        "period_start": "2009-05-29T00:00:00",
+        "count": 18
+      },
+      {
+        "period_start": "2009-05-30T00:00:00",
+        "count": 3
+      }
+    ]
+  }
+}

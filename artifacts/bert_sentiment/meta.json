@@ -1,0 +1,9 @@
+{
+  "label_names": [
+    "negative",
+    "positive"
+  ],
+  "base_model": "google/bert_uncased_L-2_H-128_A-2",
+  "max_length": 128,
+  "created_at": "2026-04-06T17:08:17.260091Z"
+}

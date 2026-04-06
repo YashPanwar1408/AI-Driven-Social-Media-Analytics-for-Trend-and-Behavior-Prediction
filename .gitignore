@@ -1,0 +1,21 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Editor/OS
+.vscode/
+.DS_Store
+
+# Logs
+outputs/logs/
+*.log
+
+# Dataset (too large for GitHub; download separately)
+data/training.1600000.processed.noemoticon.csv

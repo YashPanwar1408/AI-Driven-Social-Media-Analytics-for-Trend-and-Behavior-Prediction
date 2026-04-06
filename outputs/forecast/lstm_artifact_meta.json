@@ -1,0 +1,10 @@
+{
+  "hashtag": "fb",
+  "group_freq": "D",
+  "lookback": 14,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "dropout": 0.1,
+  "vmin": 0.0,
+  "vmax": 34.0
+}
