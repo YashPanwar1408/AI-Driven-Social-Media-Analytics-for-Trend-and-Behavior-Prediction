@@ -92,6 +92,41 @@ streamlit run app.py
 
 ## 4) 🏗️ Project Architecture
 
+### Architecture Flow (high‑level)
+
+```mermaid
+flowchart LR
+  U[User]
+  ST[Streamlit UI<br/>(app.py)]
+  API[FastAPI Backend<br/>(api/main.py)]
+
+  DATA[(Dataset CSV<br/>data/training.1600000.processed.noemoticon.csv)]
+  PIPE[One‑Command Pipeline<br/>(run_pipeline.py)]
+
+  A1[(TF‑IDF Sentiment Artifact<br/>artifacts/sentiment_tfidf.joblib)]
+  A2[(BERT Artifact (optional: --full)<br/>artifacts/bert_sentiment/)]
+  A3[(LSTM Forecast Artifact (optional: --full)<br/>artifacts/hashtag_lstm.pt)]
+  OUT[(Generated Outputs<br/>outputs/ (plots, metrics, trends, forecast))]
+
+  U --> ST
+  U --> API
+
+  DATA --> PIPE
+  PIPE --> A1
+  PIPE --> A2
+  PIPE --> A3
+  PIPE --> OUT
+
+  ST -->|loads| A1
+  ST -->|loads (optional)| A2
+  ST -->|loads (optional)| A3
+  ST -->|reads| OUT
+
+  API -->|loads| A1
+  API -->|loads (optional)| A3
+  API -->|reads| DATA
+```
+
 ### Pipeline (end‑to‑end)
 
 **Data → Preprocessing → Models → Outputs → API → UI**
@@ -300,8 +335,7 @@ With a GPU, more epochs, and tuning, BERT typically improves.
 ## 12) 👤 Author / Contribution
 
 ### Author
-- Name: *(add your name here)*
-- Institute / Course: *(add details)*
+- Name: *Yash Panwar*
 
 ### Contribution
 Contributions are welcome:
@@ -309,8 +343,3 @@ Contributions are welcome:
 - Create a feature branch
 - Open a PR with a clear description + test notes
 
----
-
-## 📄 License
-
-License is currently **not specified**. If you plan to publish this project, add a `LICENSE` file and update the badge above.
